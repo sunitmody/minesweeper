@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.tile {
+  background-color: rgb(241, 211, 76);
+  border: 1px solid black;
+  margin: 1px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.detectedBlank {
+  background-color: rgb(54, 131, 84);
+  text-align: center;
+  line-height: 30px;
+}
+
+.detectedMine {
+  background-color: rgb(231, 108, 108);
+}
+
+.tile:hover {
+  background-color: rgb(167, 146, 14);
+}
+
+.detectedMine:hover {
+  background-color: rgb(133, 59, 59);
 }
